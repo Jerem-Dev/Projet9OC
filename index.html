@@ -130,7 +130,14 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.png" />
+        <img
+          srcset="
+            ./assets/images/nina-650.png 650w,
+            ./assets/images/nina.png     651w
+          "
+          src="./assets/images/nina.png"
+          sizes="(max-width: 650px) 650px, 651px"
+        />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
@@ -296,7 +303,14 @@
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.png" />
+          <img
+            srcset="
+              ./assets/images/camera-650.png 650w,
+              ./assets/images/camera.png     651w
+            "
+            src="./assets/images/camera.png"
+            sizes="(max-width: 650px) 650px, 651px"
+          />
         </div>
       </div>
     </div>
