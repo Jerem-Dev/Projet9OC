@@ -21,6 +21,46 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <!-- change the url to Nina's website when the changes are accepted -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "jobTitle": "Photographer",
+        "image": "https://jerem-dev.github.io/Projet9OC/assets/images/nina.webp",
+        "url": "https://jerem-dev.github.io/Projet9OC/",
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+33 5 56 67 78 89",
+          "contactType": "Customer Service",
+          "availableLanguage": ["French"],
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="top-header">
